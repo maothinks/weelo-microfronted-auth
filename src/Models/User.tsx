@@ -1,12 +1,13 @@
-export default class User{
-    username: string;
-    password: string;
-    id: number;
-    firstName: string;
-    photoPath: string;
-    birthDate: Date;
-    address: string;
-    isOwner: boolean;
-    role: string;
-    token: string;
-  }
+export default class User {
+  id: number;
+  username: string;
+  password: string;
+  passwordconfirm: string;
+  firstName: string;
+  photoPath: string;
+  birthDate: Date;
+  address: string;
+  isOwner: boolean;
+  role: string;
+  token: string;
+}

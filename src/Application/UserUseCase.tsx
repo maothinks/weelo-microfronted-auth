@@ -12,4 +12,15 @@ export default class UserUseCase {
             });;
         });
     }
+
+    public signUp(user:User): Promise<User> {
+        return new Promise((resolve, reject) => {
+            new UserService().signUp(user).then((result) =>{
+                resolve(result);
+            }).
+            catch(err => {
+                reject(err);
+            });;
+        });
+    }
   }
