@@ -8,6 +8,16 @@ This microfrontend allows Sign-in and Sign-up and creates the user session with 
 
 ## Installation
 
+- appsettings.json
+
+This file contais the parameters for Api Gateway
+
+```javascript
+{
+    "ServerGateway": "https://localhost:44399/Gateway/"
+}
+```
+
 Install the dependencies and start the server (use port 8500 for tests).
 
 ```sh
